@@ -1,0 +1,15 @@
+#node_modules
+/node_modules
+#vscode
+/.vscode
+
+#output
+/output
+
+#.next
+/.next
+
+yarn-error.log
+
+#.start.sh
+/start.sh

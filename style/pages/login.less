@@ -1,0 +1,83 @@
+.page-login{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #5CACEE;
+    background: -webkit-linear-gradient(#067fdf, #5CACEE); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#067fdf, #5CACEE); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#067fdf, #5CACEE); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#067fdf, #5CACEE); /* 标准的语法 */
+    >.login-group{
+        display: flex;  
+        flex-direction: column;
+        width: 400px;
+        border-radius: 4px;
+        align-items: center;    
+        background: white;
+        box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+        >.login-title{
+            position: relative;
+            margin-top: 30px;  
+            margin-bottom: 10px;
+            font-weight: bold; 
+            color: #067fdf;
+            width: 100%;
+            height: 50px;
+            >.icon-palace-logo{
+                font-size: 54px;
+                margin-right: 10px;
+                position: absolute;
+                left: 100px;
+            }
+            >span{
+                position: absolute;
+            }
+            >.title-main{
+                left: 160px;
+                top: 6px;
+                font-size: 18px;
+            }
+            >.title-sub{
+                left: 160px;
+                top: 34px;
+                font-size: 12px;
+            }
+        }
+        >input, >select{
+            border: 1px #ccc solid;
+            width: 360px;
+            height: 40px;
+            margin-top: 20px;
+            border-radius: 4px;
+            padding-left: 10px;
+            font-size: 16px;
+            box-sizing: border-box; 
+        }
+        >input:focus{
+            border: 1px #2196f3 solid;
+        }
+        >.login-button{
+            width: 360px;
+            height: 40px;
+            border: 1px #2196f3 solid;
+            background: #2196f3;
+            font-size: 16px;
+            color: white;   
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+        >.login-button:hover{
+            opacity: 0.9;
+        }
+    }
+}
